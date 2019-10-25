@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BR24</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 70px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class=data-role="main" class="ui-content"  style="text-align:center; border: thick solid black">
+    <form class="form-inline">
+        <br>
+      <div class="input-group-prepend">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+      </div>
+      <br>
+
+      <span class="input-group-text" id="">Location</span>
+      <div class="input-group-prepend">
+        <input type="text" class="form-control">
+        <input type="text" class="form-control">
+        <br>
+      </div>
+
+      <br>
+      <span class="input-group-text">Age</span>
+      <div class="input-group-prepend">
+        <input type="Number" class="form-control">
+        <input type="Number" class="form-control">
+      </div>
+      <br>
+      <br>
+      <fieldset data-role="controlgroup">
+        <span>Choose your gender:</span>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="diverse">Diverse</label>
+        <input type="radio" name="gender" id="diverse" value="diverse">
+      </fieldset>
+      <br>
+      <br>
+      <span class="input-group-text">Choose your Social Media Link:</span>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+
+      <br>
+      <br>
+
+      <div class="input-group-prepend">
+        <span class="input-group-text">Mentions @</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+
+
+      <br>
+      <br>
+
+      <div class="input-group-prepend">
+        <span class="input-group-text">Date to Date</span>
+        <input type="date" name="date">
+        -
+        <input type="date" name="date">
+
+      </div>
+
+      <br>
+      <br>
+
+      <div class="input-group-prepend">
+        <span class="input-group-text">Number </span>
+        <input type="Number" class="form-control">
+      </div>
+
+      <br>
+    
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+
+  </div>
+
+
+</body>
+
+</html>
